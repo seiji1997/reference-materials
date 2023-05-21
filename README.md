@@ -115,27 +115,27 @@ PyTorch
 ## 資格
 機械学習関係の資格
 
-|No.|重要度|金額|資格名|
-|:---:|:---:|:---:|:---:|
-| 01 | S | 33,000円 | [E資格](https://www.jdla.org/certificate/engineer/)  
-| 02 | A | 13,200円 | [G検定](https://www.jdla.org/certificate/general/)  
-| 03 | A | 10,000円 | [データサイエンティスト検定リテラシーレベル](https://www.datascientist.or.jp/dskentei/)  
-| 04 | B | 33,000円 | [AI実装検定S級](https://kentei.ai/)  
-| 05 | B | 14,850円 | [AI実装検定A級](https://kentei.ai/)  
-| 06 | S | 7,000円 | [統計検定2級](https://www.toukei-kentei.jp/exam/grade2/)  
-| 07 | B | 8,000円 | [統計検定準1級](https://www.toukei-kentei.jp/exam/grade1semi/)  
-| 08 | B | 12,000円 | [統計検定1級](https://www.toukei-kentei.jp/exam/grade1/)  
-| 09 | B | 5,200円 | [数学検定1級](https://www.su-gaku.net/suken/examination/summary/1q/)  
-| 10 | B | 10,000円 | [Python3エンジニア認定データ分析試験](https://www.pythonic-exam.com/exam/analyist)  
-| 11 | S | $200 | [Google Cloud Associate Cloud Engineer](https://cloud.google.com/certification/cloud-engineer)  
-| 12 | S | $200 | [Google Cloud Professional Cloud Architect](https://cloud.google.com/certification/cloud-architect)  
-| 13 | S | $200 | [Google Cloud Professional Data Engineer](https://cloud.google.com/certification/data-engineer?hl=ja)  
-| 14 | S | $200 | [Google Cloud Professional Cloud Security Engineer](https://cloud.google.com/certification/cloud-security-engineer)  
-| 15 | S | $200 | [Google Cloud Professional Cloud Network Engineer](https://cloud.google.com/certification/cloud-network-engineer)  
-| 16 | S | $200 | [Google Cloud Professional Cloud DevOps Engineer](https://cloud.google.com/certification/cloud-devops-engineer)  
-| 17 | S | $200 | [Google Cloud Professional Cloud Developer](https://cloud.google.com/certification/cloud-developer)  
-| 18 | S | $200 | [Google Cloud Professional Machine Learning Engineer](https://cloud.google.com/certification/machine-learning-engineer?hl=ja)  
-| 19 | S | $200 | [TensorFlow Developer Certification](https://www.tensorflow.org/certificate)  
+|No.|資格名|
+|:---:|:---:|
+| 01 | [E資格](https://www.jdla.org/certificate/engineer/)  
+| 02 | [G検定](https://www.jdla.org/certificate/general/)  
+| 03 | [データサイエンティスト検定リテラシーレベル](https://www.datascientist.or.jp/dskentei/)  
+| 04 | [AI実装検定S級](https://kentei.ai/)  
+| 05 | [AI実装検定A級](https://kentei.ai/)  
+| 06 | [統計検定2級](https://www.toukei-kentei.jp/exam/grade2/)  
+| 07 | [統計検定準1級](https://www.toukei-kentei.jp/exam/grade1semi/)  
+| 08 | [統計検定1級](https://www.toukei-kentei.jp/exam/grade1/)  
+| 09 | [数学検定1級](https://www.su-gaku.net/suken/examination/summary/1q/)  
+| 10 | [Python3エンジニア認定データ分析試験](https://www.pythonic-exam.com/exam/analyist)  
+| 11 | [Google Cloud Associate Cloud Engineer](https://cloud.google.com/certification/cloud-engineer)  
+| 12 | [Google Cloud Professional Cloud Architect](https://cloud.google.com/certification/cloud-architect)  
+| 13 | [Google Cloud Professional Data Engineer](https://cloud.google.com/certification/data-engineer?hl=ja)  
+| 14 | [Google Cloud Professional Cloud Security Engineer](https://cloud.google.com/certification/cloud-security-engineer)  
+| 15 | [Google Cloud Professional Cloud Network Engineer](https://cloud.google.com/certification/cloud-network-engineer)  
+| 16 | [Google Cloud Professional Cloud DevOps Engineer](https://cloud.google.com/certification/cloud-devops-engineer)  
+| 17 | [Google Cloud Professional Cloud Developer](https://cloud.google.com/certification/cloud-developer)  
+| 18 | [Google Cloud Professional Machine Learning Engineer](https://cloud.google.com/certification/machine-learning-engineer?hl=ja)  
+| 19 | [TensorFlow Developer Certification](https://www.tensorflow.org/certificate)  
 
 
 E資格<br>

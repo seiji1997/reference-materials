@@ -1,5 +1,5 @@
 # reference-materials
-## title: AWS/Azure/Google Cloudサービス比較 2023.06
+## title: AWS/Azure/Google Cloudサービス比較 2023.10
 
 ## Analytics
 ||AWS|Azure|GCP|

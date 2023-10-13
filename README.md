@@ -504,8 +504,3 @@ PyTorch
 | 17 | [Google Cloud Professional Cloud Developer](https://cloud.google.com/certification/cloud-developer)  
 | 18 | [Google Cloud Professional Machine Learning Engineer](https://cloud.google.com/certification/machine-learning-engineer?hl=ja)  
 | 19 | [TensorFlow Developer Certification](https://www.tensorflow.org/certificate)  
-
-
-E資格<br>
-- 要件：受験のための[JDLA認定プログラム](https://www.jdla.org/certificate/engineer/#certificate_No04)を修了する
-- JDLA認定プログラム最安値：[ラビットチャレンジ](https://ai999.careers/rabbit/)（入会金：22,000円、3,300円/月）

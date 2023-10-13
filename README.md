@@ -1,4 +1,372 @@
 # reference-materials
+## title: AWS/Azure/Google Cloudサービス比較 2023.06
+
+## Analytics
+||AWS|Azure|GCP|
+|---|---|---|---|
+|データレイクへのクエリ|Amazon Athena|Azure Synapse Analytics/Azure Data Lake Analytics|BigQuery|
+|検索|Amazon CloudSearch|Azure Cognitive Search|-|
+|Hadoopクラスターの展開|Amazon EMR|HD Insight/Azure Databricks|Dataproc|
+|Elasticsearchクラスターの展開|Amazon OpenSearch Service|Elasticsearch Service on Elastic Cloud|Elastic Cloud on GCP|
+|ストリーミング処理|Amazon Kinesis|Azure Event Hubs|Cloud Dataflow|
+|Kafkaクラスターの展開|Amazon Managed Streaming for Kafka|HDInsight|-|
+|DWH|Amazon Redshift|Azure Synapse Analytics|Google BigQuery|
+|BIサービス|Quick Sight|(Power BI)|Looker/Data Studio|
+|データドリブンワークフロー|AWS Data Pipeline|Azure Data Factory|-|
+|ETL|AWS Glue|Azure Data Factory|Cloud Data Fusion|
+|データレイクの構築|AWS Lake Formation|-|-|
+|データカタログ|AWS Glue|Azure Purview/Azure Data Catalog|Data Catalog|
+|3rd-partyデータの購読|AWS Data Exchange|Azure Data Share|Analytics Hub|
+|Data Preparation|AWS Glue DataBrew|-|Dataprep by Trifacta|
+|金融サービス業界向けの分析|Amazon FinSpace|-|-|
+|統合データガバナンス|Amazon DataZone|Azure Purview|-|
+|データクリーンルーム|AWS Clean Rooms|-|-|
+
+## Application Integration
+||AWS|Azure|GCP|
+|---|---|---|---|
+|分散アプリケーションの作成|AWS Step Functions|Azure Logic Apps|Workflow|
+|メッセージキュー|Amazon Simple Queue Service|Azure Queue Storage|Cloud Pub/Sub<br>Cloud Tasks|
+|Pub/Sub|Amazon Simple Notification Service|Azure Service Bus|Cloud Pub/Sub|
+|ActiveMQの展開|Amazon MQ|
+|イベントの取り込みと配信|Amazon EventBridge|Event Grid|Eventarc|
+|ジョブのスケジューリング|Amazon EventBridge|Azure Logic Apps|Cloud Scheduler|
+|SaaSとのデータ連携|Amazon AppFlow|-|-|
+|ワークフローオーケストレーション|Amazon Managed Workflows for Apache Airflow|Azure Data Factory|Cloud Composer|
+
+## Blockchain
+||AWS|Azure|GCP|
+|---|---|---|---|
+|ネットワークの作成と管理|Amazon Managed Blockchain|Azure Blockchain Service|-|
+|台帳データベース|Amazon Quantum Ledger Database|-|-|
+|アプリケーションの作成|-|Azure Blockchain Workbench|-|
+|トークンの定義、作成、管理|-|Azure Blockchain Tokens|-|
+
+## Business Applications
+||AWS|Azure|GCP|
+|---|---|---|---|
+|Alexa|Alexa for Business|-|-|
+|オンラインミーティング|Amazon Chime|(Office 365)|Google Workspace|
+|通信機能をアプリケーションに実装|Amazon Chime SDK|Azure Communication Services|-|
+|Eメール|Amazon WorkMail|(Office 365)|Google Workspace|
+|No-Code|Amazon Honeycode|(PowerApps)|AppSheet|
+|サプライチェーン管理|AWS Supply Chain|-|-|
+|エンタープライズコミュニケーション|AWS Whickr|Azure Communication Services|-|
+
+## Compute
+||AWS|Azure|GCP|
+|---|---|---|---|
+|仮想マシン|Amazon EC2|Azure Virtual Machines|Compute Engine|
+|オートスケール|Amazon EC2 Auto Scaling|Virtual Machine Scale Sets|Autoscaling|
+|VPS|Amazon Lightsail|-|-|
+|バッチコンピューティング|AWS Batch|Azure Batch|Batch|
+|Webアプリケーションの実行環境|Amazon Elastic Beanstalk|Azure App Service|App Engine|
+|Function as a Service|AWS Lambda|Azure Functions|Cloud Functions|
+|サーバーレスアプリケーションのリポジトリ|AWS Serverless Application Repository|-|-|
+|VMware環境の展開|VMware Cloud on AWS|Azure VMware Solution|Google Cloud VMware Engine|
+|オンプレミスでの展開|AWS Outposts|Azure Stack|Google Distributed Cloud|
+|5Gデバイス向けコンピューティング環境|AWS Wavelength|Azure private multi-access edge compute (MEC)|-|
+|VMイメージ作成の自動化|EC2 Image Builder|Azure Image Builder|-|
+|機密コンピューティング環境|AWS Nitro Enclaves|Azure Confidential Computing|Confidential VMs|
+|空間シミュレーション|AWS SimSpace Weaver|-|-|
+
+## Containers
+||AWS|Azure|GCP|
+|---|---|---|---|
+|コンテナオーケストレーター|Amazon Elastic Container Service|Service Fabric|-|
+|Kubernetes|Amazon Elastic Kubernetes Service|Azure Kubernetes Service|Google Kubernetes Engine|
+|コンテナレジストリ|Amazon Elastic Container Registry|Azure Container Registry|Container Registry|
+|インスタンス管理不要のコンテナ実行|AWS Fargate|Azure Container Instances|-|
+|フルマネージドなコンテナ実行環境|AWS App Runner|Azure Container Apps|Cloud Run|
+|既存アプリのコンテナ化|AWS App2Container|Azure Migrate|Migrate for Anthos|
+|ハイブリッドクラウドの構築|Amazon ECS/EKS Anywhere|Azure Arc|Anthos|
+|OpenShiftクラスターの展開|Red Hat OpenShift Service on AWS|Azure Red Hat OpenShift|-|
+
+## Cost Financial Management
+||AWS|Azure|GCP|
+|---|---|---|---|
+|使用状況の可視化|AWS Cost Explorer|Azure Cost Management|Cost Management|
+|予算の管理|AWS Budgets|Azure Cost Management|Cloud Billing|
+|リザーブドインスタンスの管理|Reserved Instance Reporting|Azure Cost Management|-|
+|使用状況のレポート|AWS Cost & Usage Report|Azure Cost Management|Cloud Billing|
+|Compute使用料の節約|Savings Plans|Azure Savings Plan|-|
+
+## Customer Engagement
+||AWS|Azure|GCP|
+|---|---|---|---|
+|コンタクトセンター|Amazon Connect|-|-|
+|コンタクトセンターの分析|Contact Lens for Amazon Connect|-|Contact Center AI Insights|
+|エンゲージメントのパーソナライズ|Amazon Pinpoint|Notification Hubs|-|
+|Eメールの送受信|Amazon Simple Email Service|Azure Communication Services|-|
+
+## Database
+||AWS|Azure|GCP|
+|---|---|---|---|
+|高性能 DB|Amazon Aurora|Azure SQL Database Hyperscale|AlloyDB for PostgreSQL|
+|MySQL|Amazon RDS for MySQL|Azure Database for MySQL|Cloud SQL for MySQL|
+|PostgreSQL|Amazon RDS for PostgreSQL|Azure Database for PostgreSQL|Cloud SQL for PostgreSQL|
+|Oracle|Amazon RDS for Oracle|-|-|
+|SQL Server|Amazon RDS for SQL Server|Azure SQL Database|Cloud SQL for SQL Server|
+|MariaDB|Amazon RDS for MariaDB|Azure Database for MariaDB|-|
+|NoSQL|Amazon DynamoDB|Azure Cosmos DB|Cloud Datastore/Cloud Bigtable|
+|Memcached|Amazon ElastiCache for Memcached|-|Memorystore for Memcached|
+|Redis|Amazon ElastiCache for Redis|Azure Cache for Redis|Memorystore for Redis|
+|グラフDB|Amazon Neptune|Azure Cosmos DB(API for Gremlin)|-|
+|時系列DB|Amazon Timestream|Azure Time Series Insights|-|
+|MongoDB|Amazon DocumentDB (with MongoDB compatibility)|Azure Cosmos DB(MongoDB API)|-|
+|Cassandra|Amazon Keyspaces (for Apache Cassandra)|Azure Managed Instance for ApacheCassandra|-|
+|グローバル分散RDB|-|Azure Cosmos DB for PostgreSQL|Cloud Spanner|
+|リアルタイムDB|-|-|Cloud Firestore|
+
+## Developer Tools
+||AWS|Azure|GCP|
+|---|---|---|---|
+|開発プロジェクトの管理|AWS CodeStar|Azure DevOps|-|
+|Gitリポジトリ|AWS CodeCommit|Azure Repos|Cloud Source Repositories|
+|継続的なビルドとテスト|AWS CodeBuild|Azure Pipelines|Cloud Build|
+|継続的なデプロイ|AWS CodeDeploy|Azure Pipelines|Cloud Build/Google Cloud Deploy|
+|パイプライン|AWS CodePipeline|Azure Pipelines|Cloud Build/Google Cloud Deploy|
+|作業の管理|-|Azure Boards|-|
+|パッケージレジストリ|AWS CodeArtifact|Azure Artifacts|Artifact Registry|
+|テスト計画の管理|-|Azure Test Plans|-|
+|IDE|AWS Cloud9|Visual Studio Codespaces|Cloud Shell Code editor|
+|分散トレーシング|AWS X-Ray|Azure Application Insights|Cloud Trace|
+|ブラウザベースのシェル|AWS CloudShell|Azure Cloud Shell|Cloud Shell|
+|カオスエンジニアリング|AWS Fault Injection Simulator|Azure Chaos Studio|-|
+|統合ソフトウェア開発サービス|AWS CodeCatalyst|-|-|
+
+## End User Computing
+||AWS|Azure|GCP|
+|---|---|---|---|
+|デスクトップ|Amazon WorkSpaces|Azure Virtual Desktop|-|
+|アプリケーションストリーミング|Amazon AppStream 2.0|-|-|
+|ストレージ|Amazon WorkDocs|(Office 365)|Google Workspace|
+|社内アプリケーションへのモバイルアクセス|Amazon WorkLink|Azure AD Application Proxy|Cloud Identity-Aware Proxy|
+
+## Front-End Web & Mobile
+||AWS|Azure|GCP|
+|---|---|---|---|
+|モバイル/Webアプリケーションの構築とデプロイ|AWS Amplify|Azure Static Web Apps/Azure Mobile Apps|(Firebase)|
+|アプリケーションテスト|AWS Device Farm|(Visual Studio App Center)|(Firebase Test Lab)|
+|GraphQL|AWS AppSync|-|-|
+
+## Game Tech
+||AWS|Azure|GCP|
+|---|---|---|---|
+|ゲームサーバーホスティング|Amazon GameLift|Azure PlayFab|Google Cloud Game Servers|
+|ゲームエンジン|Amazon Lumberyard|-|-|
+
+## Internet of Things
+||AWS|Azure|GCP|
+|---|---|---|---|
+|デバイスとクラウドの接続|AWS IoT Core|Azure IoT Hub|Cloud IoT Core|
+|エッジへの展開|AWS Greengrass|Azure IoT Edge|Cloud IoT Edge|
+|デバイスから任意の関数を実行|AWS IoT 1-Click|-|-|
+|デバイスの分析|AWS IoT Analytics|Azure Stream Analytics/Azure Time Series Insights|-|
+|デバイスのセキュリティ管理|AWS IoT Device Defender|-|-|
+|デバイスの管理|AWS IoT Device Management|Azure IoT Hub|Cloud IoT Core|
+|デバイスで発生するイベントの検出|AWS IoT Events|-|-|
+|産業機器からデータを収集|AWS IoT SiteWise|-|-|
+|IoTアプリケーションの構築|AWS IoT Things Graph|Azure Digital Twins|-|
+|デジタルツイン|AWS IoT TwinMaker|Azure Digital Twins|-|
+|位置情報|Amazon Location Service|Azure Maps|Google Maps Platform|
+|エッジに配置可能なDB|-|Azure SQL Edge|-|
+|車両データの収集|AWS IoT FleetWise|-|-|
+|ロボットフリート管理アプリケーションの構築|AWS IoT RoboRunner|-|-|
+
+## Machine Learning
+||AWS|Azure|GCP|
+|---|---|---|---|
+|機械学習モデルの構築|Amazon SageMaker|Azure Machine Learning|Vertex AI|
+|ML予測のレビューに必要なワークフローを構築|Amazon Augmented AI|-|-|
+|自動コードレビュー|Amazon CodeGuru|-|-|
+|自然言語処理|Amazon Comprehend|Text Analytics|Natural Language AI|
+|不正検出|Amazon Fraud Detector|-|-|
+|ヘルスデータの保存と分析|Amazon HealthLake|Azure API for FHIR|Cloud Healthcare API|
+|エンタープライズ検索|Amazon Kendra|Azure Cognitive Search|-|
+|チャットボットの構築|Amazon Lex|Azure Bot Service|Dialogflow|
+|Text-to-Speech|Amazon Polly|Speech Services|Text-to-Speech|
+|画像認識|Amazon Rekognition|Computer Vision|Vision AI|
+|翻訳|Amazon Translate|Translator Text|Translation AI|
+|Speech-to-Text|Amazon Transcribe|Speech Services|Speech-to-Text|
+|レコメンデーション|Amazon Personalize|Personalizer|Recommendations AI|
+|時系列予測|Amazon Forecast|-|-|
+|ドキュメント検出|Amazon Textract|Azure Form Recognizer|Document AI|
+|推論の高速化|Amazon Elastic Inference|-|Cloud TPU|
+|データセットの構築|Amazon SageMaker Ground Truth|Azure Machine Learning data labeling|Vertex Data Labeling|
+|ノートブック|Amazon SageMaker Studio Notebooks|Azure Machine Learning|Vertex AI Workbench|
+|MLデータの準備|Amazon SageMaker Data Wrangler|-|-|
+|ビジョンモデルのカスタマイズ|Amazon Rekognition Custom Labels|Custom Vision|Vertex AI|
+|音声モデルのカスタマイズ|-|Custom Speech|-|
+|言語処理モデルのカスタマイズ|Amazon Comprehend|-|Vertex AI|
+|翻訳モデルのカスタマイズ|Amazon Translate Custom Terminology |Translator Text Custom Translator|Vertex AI |
+|MLを活用したクラウド運用|Amazon DevOps Guru|-|-|
+|センサーデータ分析による異常動作検出|Amazon Lookout for Equipment|-|-|
+|製品欠陥の検出|Amazon Lookout for Vision|-|-|
+|時系列データの異常検知|Amazon Lookout for Metrics|Anomaly Detector|-|
+|エンドツーエンドの産業機器監視|Amazon Monitron|-|-|
+|エッジでのコンピュータービジョン|AWS Panorama|Azure Percept|-|
+|Deep Learning用仮想マシンイメージ|AWS Deep Learning AMIs|Data Science Virtual Machines|Deep Learning VM Image|
+|Deep Learning用コンテナイメージ|AWS Deep Learning Containers|-|Deep Leaning Containers|
+|コーディングコンパニオン|Amazon CodeWhisperer|(GitHub Copilot)|-|
+|ゲノムデータ分析|Amazon Omics|-|Cloud Life Sciences|
+|生成系 AI|Amazon Bedrock|Azure OpenAI Service|Vertex AI|
+
+## Managemnet & Governance
+||AWS|Azure|GCP|
+|---|---|---|---|
+|モニタリング|Amazon CloudWatch|Azure Monitor|Cloud Monitoring|
+|リソースの作成と管理|AWS CloudFormation|Azure Resource Manager|Cloud Deployment Manager|
+|アクティビティの追跡|AWS CloudTrail|Azure Activity Log|Cloud Audit Logs|
+|リソースの設定変更の記録、監査|AWS Config|-|Cloud Asset Inventory|
+|構成管理サービスの展開|AWS OpsWorks(Chef/Puppet)|-|-|
+|ITサービスカタログの管理|AWS Service Catalog|Azure Managed Applications|Private Catalog|
+|インフラストラクチャの可視化と制御|AWS Systems Manager|Azure Automanage|VM Manager|
+|パフォーマンスとセキュリティの最適化|AWS Trusted Advisor|Azure Advisor|Recommender|
+|使用しているサービスの状態表示|AWS Personal Health Dashboard|Azure Resource Health|-|
+|基準に準拠したアカウントのセットアップ|AWS Control Tower|Azure Blueprints|Policy Intelligence|
+|ライセンスの管理|AWS License Manager|-|-|
+|クラウドプロバイダによるインフラの運用管理|AWS Managed Services|-|-|
+|ワークロードの見直しと改善|AWS Well-Architected Tool|-|-|
+|複数アカウントの管理|AWS Organizations|Azure Management Group|Resource Manager|
+|プライベートSSH/RDP接続|AWS Systems Manager Session Manager|Azure Bastion|Cloud Identity-Aware Proxy|
+|ChatOps|AWS Chatbot|-|-|
+|パラメーターストア|AWS Systems Manager Parameter Store|App Configuration|-|
+|リソースの移動|-|Azure Resource Mover|-|
+|VM 管理の簡素化|-|Azure Automanage|-|
+|コンテナ/サーバーレスデプロイメントの管理|Amazon Proton|Azure Deployment Environments|-|
+|Grafana|Amazon Managed Service for Grafana|Azure Managed Grafana|-|
+|Prometheus|Amazon Managed Service for Prometheus|Azure Monitor managed service for Prometheus|Google Cloud Managed Service for Prometheus|
+|アプリケーションの回復力を定義、検証、追跡|AWS Resilience Hub|-|-|
+
+## Media Services
+||AWS|Azure|GCP|
+|---|---|---|---|
+|メディア変換|Amazon Elastic Transcoder/AWS Elemental MediaConvert|Azure Media Services - Encoding|Transcoder API|
+|ライブ動画処理|AWS Elemental MediaLive|Live and On-demand Streaming|Livestream API|
+|ライブストリーミング配信|Amazon Interactive Video Service|-|-|
+|動画の配信とパッケージング|AWS Elemental MediaPackage|Azure Media Services|(Anvato)|
+|動画ファイル向けストレージ|AWS Elemental MediaStore|-|-|
+|ターゲティング広告の挿入|AWS Elemental MediaTailor|-|Video Stitcher API|
+|デジタルコンテンツ作成スタジオ|Amazon Nimble Studio|-|-|
+
+## Migration & Transfer
+||AWS|Azure|GCP|
+|---|---|---|---|
+|移行の管理|AWS Migration Hub|-|-|
+|移行のアセスメント|AWS Application Discovery Service|Azure Migrate|-|
+|データベースの移行|AWS Database Migration Service|Azure Database Migration Service|Database Migration Service|
+|オンプレミスからのデータ転送|AWS DataSync|Azure File Sync|-|
+|サーバーの移行|AWS Application Migration Service/AWS Server Migration Service|Azure Migrate|Migrate for Compute Engine|
+|ディザスタリカバリ|AWS Elastic Disaster Recovery |Azure Site Recovery|-|
+|大容量データの移行|Snowファミリー|Azure Data box|Transfer Appliance|
+|SFTP|AWS Transfer for SFTP|-|-|
+|クラウド間のデータ転送|-|-|Cloud Storage Transfer Service|
+|メインフレームのモダナイゼーション|AWS Mainframe Modernization|-|-|
+
+## Networking & Content Delivery
+||AWS|Azure|GCP|
+|---|---|---|---|
+|仮想ネットワーク|Amazon Virtual Private Cloud|Azure Virtual Network|Virtual Private Cloud|
+|APIの管理|Amazon API Gateway|API Apps/API Management|API Gateway/Cloud Endpoints/Apigee|
+|CDN|Amazon CloudFront|Azure CDN|Cloud CDN|
+|DNS|Amazon Route 53|Azure DNS|Cloud DNS/Domains|
+|プライベート接続|Amazon VPC PrivateLink|Azure Private Link|Private Access Options for Services|
+|サービスメッシュ|AWS App Mesh|Azure Service Fabric Mesh|Traffic Director|
+|サービスディスカバリー|AWS Cloud Map|-|Service Directory|
+|専用線接続|AWS Direct Connect|Azure ExpressRoute|Cloud Interconnect|
+|DNSベース負荷分散|Amazon Route 53|Azure Traffic Manager|Cloud DNS|
+|グローバルエンドポイント|AWS Global Accelerator|Azure Front Door|Cloud Load Balancing|
+|ハブ&スポーク型ネットワーク接続|AWS Transit Gateway|Azure Virtual Network Manager|-|
+|ネットワークパフォーマンスの監視|AWS Transit Gateway Network Manager|Network Watcher|Network Intelligence Center|
+|グローバルワイドエリアネットワークの構築|AWS Cloud WAN|Azure Virtual WAN|Network Connectivity Center|
+|プライベート 5Gの構築|AWS Private 5G|Azure Private 5G Core |-|
+|VPNなしの企業アプリケーションへのアクセス|AWS Verified Access|Azure AD Application Proxy|Cloud Identity-Aware Proxy|
+
+
+## Quantum Technologies
+||AWS|Azure|GCP|
+|---|---|---|---|
+|量子コンピューティング|Amazon Braket|Azure Quantum|-|
+
+## Robotics
+||AWS|Azure|GCP|
+|---|---|---|---|
+|ロボット工学|AWS RoboMaker|-|-|
+
+## Satellite
+||AWS|Azure|GCP|
+|---|---|---|---|
+|人工衛星の地上局|AWS Ground Station|Azure Orbital|-|
+
+## Security, Identity & Compliance
+||AWS|Azure|GCP|
+|---|---|---|---|
+|ID管理|AWS Identity and Access Management|Azure Active Directory|Cloud IAM| 
+|階層型データストア|Amazon Cloud Directory|-|-|
+|セキュリティデータの分析、視覚化|Amazon Detective|-|-|
+|アプリケーションのID管理|Amazon Cognito|Azure Active Directory B2C|Identity Platform|
+|脅威検出|Amazon GuardDuty|Azure Advanced Threat Protection|Security Command Center|
+|サーバーのセキュリティの評価|Amazon Inspector|Microsoft Defender for Cloud|Security Command Center|
+|機密データの検出と保護|Amazon Macie|Azure Information Protection|Cloud Data Loss Prevention|
+|コンプライアンスレポートへのアクセス|AWS Artifact|(Service Trust Portal)|Compliance Reports Manager|
+|SSL/TLS証明書の管理|AWS Certificate Manager|App Service Certificates|Certificate Manager|
+|プライベートCA|AWS Certificate Manager Private Certificate Authority|-|Certificate Authority Service|
+|ハードウェアセキュリティモジュール |AWS Cloud HSM|Azure Dedicated HSM|Cloud HSM|
+|Active Directory|AWS Directory Service|Azure Active Directory Domain Services|Managed Service for Microsoft Active Directory|
+|ファイアウォールルールの一元管理|AWS Firewall Manager|Azure Firewall Manager|-|
+|キーの作成と管理|AWS Key Management Service|Azure Key Vault|Cloud Key Management Service|
+|機密情報の管理|AWS Secrets Manager|Azure Key Vault|Secret Manager|
+|セキュリティ情報の一括管理|AWS Security Hub|Azure Sentinel|Security Command Center|
+|DDoS保護|AWS Shield|Azure DDoS Protection|Cloud Armor|
+|シングルサインオン|AWS IAM Identity Center|Azure Active Directory B2C|Cloud Identity|
+|WAF|AWS WAF|Azure Application Gateway|Cloud Armor|
+|仮想ネットワークファイアウォール|AWS Netowrk Firewall|Azure Firewall|-|
+|使用状況の継続的な監査|AWS Audit Manager|-|
+|IDS|-|Azure Firewall|Cloud IDS|
+|セキュリティログの集約・管理|Amazon Security Lake|-|-|
+|アプリケーションのアクセス権限と認可の管理|Amazon Verified Permissions|-|-|
+|決済用 HSM|AWS Payment Cryptography|Azure Payment HSM|-|
+
+## Serverless
+||AWS|Azure|GCP|
+|---|---|---|---|
+|サーバーレスアプリケーションの構築|AWS Application Composer|-|-|
+
+## Storage
+||AWS|Azure|GCP|
+|---|---|---|---|
+|オブジェクトストレージ|Amazon S3|Azure Blob|Cloud Storage|
+|ブロックストレージ|Amazon EBS|Managed Disk|Persistent Disk|
+|ファイルストレージ(NFS)|Amazon Elastic File System|Azure Files|Cloud Filestore|
+|ファイルストレージ(SMB)|Amazon FSx for Windows File Server|Azure Files|-|
+|NetApp ONTAP|Amazon FSx for NetApp ONTAP|Azure NetApp Files|-|
+|HPC向けファイルシステム|Amazon FSx for Lustre|Azure Managed Lustre|-|
+|NetApp ONTAP|Amazon FSx for NetApp ONTAP|Azure NetApp Files|-|
+|OpenZFS|Amazon FSx for OpenZFS|-|-|
+|アーカイブストレージ|Amazon S3 Glacier|Storage archive access tier|Cloud Storage Coldline|
+|バックアップの一元管理|AWS Backup|Azure Backup|Backup and DR Service|
+|ハイブリットストレージ|AWS Storage Gateway|Azure StorSimple|-|
+|ディザスタリカバリ|AWS Elastic Disaster Recovery|Azure Site Recovery|Backup and DR Service|
+
+## 参考情報
+### AWS Products
+https://aws.amazon.com/jp/products/
+
+### Azure Products
+https://azure.microsoft.com/ja-jp/services/
+
+### GCP Products
+https://cloud.google.com/products/
+
+### AWS to Azure services comparison
+https://docs.microsoft.com/ja-jp/azure/architecture/aws-professional/services
+
+### AWS サービスや Azure サービスと Google Cloud を比較する
+https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison
+
+
+----------------------------------------------------------------------------
 
 ## web
 資格
